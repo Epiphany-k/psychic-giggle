@@ -1,0 +1,47 @@
+.difficulty-selector {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.difficulty-selector .label {
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+.btn-group {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.diff-btn {
+  padding: 8px 16px;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  background: #1e293b;
+  color: #cbd5e1;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.15s;
+  min-height: 40px;
+}
+
+.diff-btn:active:not(:disabled) {
+  border-color: #3b82f6;
+  color: #f1f5f9;
+}
+
+.diff-btn.active {
+  background: #3b82f6;
+  border-color: #3b82f6;
+  color: #fff;
+}
+
+.diff-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}

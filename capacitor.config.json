@@ -1,0 +1,13 @@
+{
+  "appId": "com.schulte.app",
+  "appName": "舒尔特表",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "http"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "backgroundColor": "#0f172a"
+    }
+  }
+}

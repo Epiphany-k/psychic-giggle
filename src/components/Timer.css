@@ -1,0 +1,32 @@
+.timer {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 8px 20px;
+  background: #1e293b;
+  border-radius: 10px;
+  border: 1px solid #334155;
+}
+
+.timer.running {
+  border-color: #3b82f6;
+}
+
+.timer-label {
+  font-size: 13px;
+  color: #64748b;
+}
+
+.timer-value {
+  font-size: 28px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: #f1f5f9;
+  min-width: 100px;
+  text-align: right;
+}
+
+.timer-unit {
+  font-size: 14px;
+  color: #64748b;
+}

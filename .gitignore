@@ -1,0 +1,21 @@
+node_modules/
+dist/
+舒尔特表.exe
+serve-embed.cjs
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+android/capacitor-cordova-android-plugins/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+.claude/
